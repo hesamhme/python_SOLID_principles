@@ -1,8 +1,8 @@
 '''
 in SRP each class should has one reason to change, has one job and doing one job
 '''
-# before SRP
-# class validateperson has one job to validate name and age function display is against the SRP
+# Before SRP
+# Class validateperson should has one job to validate name and age, function display is against the SRP
 
 class ValidatePerson:
     def __init__(self, name, age):
@@ -28,7 +28,7 @@ class ValidatePerson:
             print("Invalid")
 
 
-# using SRP
+# After Using SRP
 
 class ValidatePerson:
     
